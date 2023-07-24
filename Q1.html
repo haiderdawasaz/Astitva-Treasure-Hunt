@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Question 1</title>
+    </head>
+    <body>
+        <h1 style="text-align: center;">Who is the Prime Minister of India?</h1>
+        <label for="Answer">Enter Answer: </label><input type="text" id="Answer" placeholder="Enter Answer Here">
+        <button onclick="TakeAnswer()">Submit</button>
+    </body>
+    <head>
+        <script>
+            function TakeAnswer()
+            {
+                var ans;
+                ans = document.getElementById("Answer").value;
+                ans = ans.toLowerCase();
+                if(ans === "modi")
+                    location.replace('Q2.html');
+                else
+                    window.alert("Incorrect Answer");
+            }
+        </script>
+    </head>
+</html>
