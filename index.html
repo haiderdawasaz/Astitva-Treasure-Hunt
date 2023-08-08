@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welcome Page</title>
+    <style>
+        img{
+            align-content: center;
+            display: block;
+            padding-left: 30%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="Info">
+        <h1 style="text-align: center;">Welcome Player</h1>
+        <label for="Username">Enter Name:</label><input type="text"  placeholder="Enter Your Name" id="Intro">
+        <button onclick="handleIntro()">Submit</button>
+    </div>
+    <div id="Quiz" style="text-align: center;">
+        <h1 style="text-align: center;" id="Question">Welcome Player</h1><br><br>
+        <label for="Username" style="text-align: center;">Enter Name:</label><input type="text" id="Answer" placeholder="Enter Answer" name="Answer">
+        <button onclick="checkAnswer1()">Submit</button>
+    </div>
+    <div id="Outro" style="display: none; text-align: center">
+        <h1>Congratulations</h1>
+        <h2>Level 1 Completed</h2>
+    </div>
+</body>
+
+<head>
+    <script src="index.js"></script>
+</head>
+<!--<head>
+        <script>
+            function TakeUsername()
+            {
+                var username = document.getElementById("Username");
+                //window.location.href = "Q1.html";
+                location.replace('Q1.html');
+                //window.open("D:/Astitva Treasure Hunt/Q1.html", true);
+            }
+        </script>
+    </head>-->
+
+</html>
