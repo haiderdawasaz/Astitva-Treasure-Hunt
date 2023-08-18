@@ -1,0 +1,48 @@
+html{
+    background: url(TrialBackground.png) no-repeat center bottom fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: 100%;
+}
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*background-image: url(TrialBackground.png);
+    background-repeat: no-repeat;*/
+}
+input{
+    padding: 8px;
+    border-radius: 20px;
+}
+#background img{
+    width: 1692px;
+    height: 832px;
+    margin: -1.5vw -1vw -1vw -1.5vw;
+    position: absolute;
+}
+#AL{
+    position: absolute;
+    height: 6vw;
+    width: 20vw;
+    margin-left:1vw;
+}
+#HCL{
+    position: absolute;
+    margin-left:90vw;
+    margin-top:0.6vw;
+    height: 8vw;
+    width: 10vw;
+}
+#Question{
+    align-content: center;
+    display: block;
+    padding-left: 30%;
+    padding-top: 2vw;
+}
+#Info {
+    position: relative;
+    margin-left: 3%;
+    /*padding: 3% 25% 0 15%;*/
+    text-align: center;
+}
